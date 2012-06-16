@@ -2,10 +2,10 @@ language: python
 
 python:
   - "2.6"
+  - "2.7"
 
 install:
   - python setup.py develop
   - pip install mock
 
 script: trial buildbot_travis/tests
-
